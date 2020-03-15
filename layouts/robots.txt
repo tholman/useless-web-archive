@@ -1,0 +1,6 @@
+# All robots allowed
+User-agent: *
+Disallow:
+
+# Sitemap files
+Sitemap: https://alwaysjudgeabookbyitscover.com/sitemap.xml

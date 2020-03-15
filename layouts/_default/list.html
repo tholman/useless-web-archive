@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+
+  <head>
+    {{ partial "head.html" . }}
+
+    <title>Always judge a book by its cover</title>
+    <meta property="og:title" content="Always judge a book by its cover">
+    <meta property="og:description" content="An eye opening look into the weird wide world of books.">
+    <meta name="twitter:title" content="Always judge a book by its cover">
+    <meta name="twitter:description" content="An eye opening look into the weird wide world of books.">
+  </head>
+
+  <body>
+    {{ partial "header.html" . }}
+
+      <div class="wrapper">
+
+        {{ $pages := .Pages }}
+          {{ if .IsHome }}
+            {{ $pages = .Site.RegularPages }}
+          {{ end }}
+          {{ $paginator := .Paginate $pages }}
+          {{ if gt $paginator.TotalPages 0 }}
+          {{ range $index, $page := $paginator.Pages }}
+
+            {{ partial "article.html" (dict "context" . "index" $index) }}
+
+          {{ end }}
+        {{ end }}
+        {{ partial "footer.html" . }}
+
+    </div>
+
+    <script src="/js/index.js"></script>
+  </body>
+
+</html>

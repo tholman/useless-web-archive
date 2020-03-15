@@ -1,0 +1,7 @@
+baseURL: "https://theuselessweb.com/archive"
+languageCode: en-us
+title: "The useless web Archive"
+paginate: 100
+paginatePath: ''
+permalinks:
+  sites: /:slug

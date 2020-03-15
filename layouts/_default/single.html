@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+	<head>
+  	{{ partial "head.html" . }}
+
+    <title> {{ .Page.Title }} | {{ $.Site.Title }}</title>
+  	<meta property="og:title" content="Always judge a book by its cover">
+    <meta property="og:description" content="{{ .Page.Title }} - A strange book with an even stranger cover.">
+    <meta name="twitter:title" content="Always judge a book by its cover">
+    <meta name="twitter:description" content="{{ .Page.Title }} - A strange book with an even stranger cover.">
+  </head>
+  <body >
+
+    {{ partial "header.html" . }}
+    <div class="wrapper">
+      {{ partial "article.html" (dict "context" . "index" 1) }}
+      {{ partial "footer.html" . }}
+    </div>
+
+    <script src="/js/index.js"></script>
+
+  </body>
+</html>

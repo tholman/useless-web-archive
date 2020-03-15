@@ -1,0 +1,38 @@
+<article>
+  <div class="inner-wrapper">
+    <div class="book">
+      <div class="inner-book">
+        {{ $ratio := lang.NumFmt 2 (div .context.Page.Params.height .context.Page.Params.width) }}
+        <div class="img" style="padding-top: calc({{$ratio}} * 100%)">
+          {{ if lt .index 2 }}
+            <img src="/assets/{{ .context.Page.Params.image }}" />
+          {{ else }}
+            <noscript class="img-asset">
+              <img src="/assets/{{ .context.Page.Params.image }}" />
+            </noscript>
+          {{ end }}
+        </div>
+        <div class="page"></div>
+        <div class="page page-2"></div>
+        <div class="page page-3"></div>
+        <div class="page page-4"></div>
+        <div class="page page-5"></div>
+        <div class="img final-page" style="padding-top: calc({{$ratio}} * 100%)">
+          {{ if lt .index 2 }}
+            <img src="/assets/{{ .context.Page.Params.image }}" />
+          {{ else }}
+            <noscript class="img-asset">
+              <img src="/assets/{{ .context.Page.Params.image }}" />
+            </noscript>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+    <div class="content">
+      <a href="{{ .context.Page.RelPermalink }}" class="title"><h1>{{ .context.Page.Params.title }}</h1></a>
+      {{ .context.Page.Content }}
+      <a href="{{ .context.Page.Params.link }}?tag=judgeabook-20" class="button" target="_blank">{{ .context.Params.button }} on Amazon <span class="logo"></span></a>
+    </div>
+  </div>
+</article>
+<canvas></canvas>
