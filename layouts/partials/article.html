@@ -1,25 +1,12 @@
 <article>
-  <div class="inner-wrapper">
-    <div class="site-content">
-      {{ $ratio := lang.NumFmt 2 (div .context.Page.Params.height .context.Page.Params.width) }}
-      
-      <div class="site">
-        <div class="img" style="padding-top: calc({{$ratio}} * 100%)">
-          {{ if lt .index 2 }}
-            <img src="/archive/assets/{{ .context.Page.Params.image }}" />
-          {{ else }}
-            <noscript class="img-asset">
-              <img src="/archive/assets/{{ .context.Page.Params.image }}" />
-            </noscript>
-          {{ end }}
-        </div>
-      </div>
-
-    </div>
-    <div class="content">
+  <div class="details">
+    <div class="details-wrapper">
       <a href="{{ .context.Page.RelPermalink }}" class="title"><h1>{{ .context.Page.Params.title }}</h1></a>
-      {{ .context.Page.Content }}
+      
+      Site: <a href="{{ .context.Page.Params.link }}">{{ .context.Page.Params.title }}</a> - URL: <pre>{{ .context.Page.Params.link }}</pre>
     </div>
   </div>
+  <div class="content">
+    {{ .context.Page.Content }}
+  </div>
 </article>
-<!-- <canvas></canvas> -->
