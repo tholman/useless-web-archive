@@ -4,8 +4,6 @@ image: "endless-horse"
 link: http://endless.horse/
 ---
 
-
-
 **What were the circumstances behind creating your site?**
 
 The idea of an infinite horse came to me in 2014, when I first heard that `.horse` was going to be a TLD. I joked about creating a website called infinite.horse. In 2015 we participated in the "Stupid Shit No One Needs & Terrible Ideas Hackathon", which was organized by some friends of ours, so the time to make infinite.horse was nigh (or neigh, if you prefer).

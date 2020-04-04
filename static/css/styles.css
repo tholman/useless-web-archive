@@ -36,19 +36,16 @@ header h1 {
 }
 
 .details {
-  margin-top: 70px;
-  padding: 20px;
+  padding: 50px 20px;
   background: #eee;
   max-width: none;
+  margin-bottom: 50px;
 }
 
-
-.wrapper {
-  /*font-family: "Open Sans", sans-serif;*/
-}
 
 article {
   font-family: "Work Sans";
+  padding-bottom: 50px;
 }
 
 .content > *, .details-wrapper {
