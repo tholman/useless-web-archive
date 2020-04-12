@@ -181,3 +181,37 @@ article strong {
 article em {
   color: #888;
 }
+
+@media only screen and (max-width: 800px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  header h1 {
+    margin-bottom: 10px;
+  }
+
+  article a h1 {
+    font-size: 80px;
+    line-height: 4rem;
+    margin-bottom: 20px;
+  }
+
+  .intro {
+    padding: 0 20px;
+  }
+
+  .images {
+    flex-direction: column;
+  }
+
+  .images img {
+    width: 100%;
+  }
+
+  .content {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
