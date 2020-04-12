@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>The useless web Archive</title>
+    <link>https://theuselessweb.com/sites/</link>
+    <description>Recent content on The useless web Archive</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://theuselessweb.com/sites/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cat Bounce</title>
+      <link>https://theuselessweb.com/sites/cat-bounce/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://theuselessweb.com/sites/cat-bounce/</guid>
+      <description>Cat Bounce is one of the very first websites on the useless web, and has been on the site right from the start of time, delighting millions with falling cats from the sky, which, if I&amp;rsquo;m honest, we all need every now and then.
+The mastermind behind Cat Bounce, Tara Sinn is an incredibly talented artist, designer and all round creative who&amp;rsquo;s work will always be the kind I get excited about.</description>
+    </item>
+    
+    <item>
+      <title>Endless Horse</title>
+      <link>https://theuselessweb.com/sites/endless-horse/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://theuselessweb.com/sites/endless-horse/</guid>
+      <description>When I first stumbled onto Endless Horse I laughed out loud. It was such a unique and ridiculous idea with the domain name to match it. I scrolled down for a few minutes to see how endless it really was (bottomless pit endless in the answer) before opening the web inspector to see how it works.
+ Its creators, Colleen Josephson and Kyle Miller were both studying their PHD&amp;rsquo;s at the time (Electrical Engineering &amp;amp; Math) who found time to create some weird at a hackathon!</description>
+    </item>
+    
+    <item>
+      <title>The Pigeon</title>
+      <link>https://theuselessweb.com/sites/the-pigeon/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://theuselessweb.com/sites/the-pigeon/</guid>
+      <description>The Pigeon is one of the most perplexing sites on the useless web, I have done a lot of digging and haven&amp;rsquo;t been able to come up with any information. I was under the impression to have a .org domain you needed to be an organization.
+ Who is the pigeon, and what do they want?
+!SPLIT!
+ !SPLIT!
+If ANYONE has any information on this site, I have a lot of questions.</description>
+    </item>
+    
+  </channel>
+</rss>

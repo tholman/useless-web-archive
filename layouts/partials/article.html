@@ -2,11 +2,22 @@
   <div class="details">
     <div class="details-wrapper">
       <a href="{{ .context.Page.RelPermalink }}" class="title"><h1>{{ .context.Page.Params.title }}</h1></a>
-      
-      <pre>{{ .context.Page.Params.link }}</pre>
+      <p>
+        By 
+        {{ if .context.Page.Params.creatorUrl }} <a class="button" href="{{ .context.Page.Params.creatorUrl }}" target="_blank">{{ .context.Page.Params.creator }}</a> {{else}} <span class="button" >{{ .context.Page.Params.creator }}</span> {{ end }}
+
+        <span class="divider">→</span> Visit <a class="button" href="{{ .context.Page.Params.link }}" target="_blank">{{ .context.Page.Params.title }}</a>
+      </p>
     </div>
   </div>
+
+  {{ $content_parts := split .context.Page.Content "!SPLIT!" }}
+
+  <div class="intro">
+    {{ index $content_parts 0 | safe.HTML }}
+  </div>
+  {{ index $content_parts 1 | safe.HTML }}
   <div class="content">
-    {{ .context.Page.Content }}
+    {{ index $content_parts 2 | safe.HTML }}
   </div>
 </article>

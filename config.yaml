@@ -5,3 +5,7 @@ paginate: 100
 paginatePath: ''
 permalinks:
   sites: /:slug
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
