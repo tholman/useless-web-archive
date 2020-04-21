@@ -2,7 +2,8 @@
 title: "The Pigeon"
 link: https://thepigeon.org/
 creator: WANTED
-creatorUrl: 
+creatorUrl:
+date: "2020-04-17T00:00:00Z"
 ---
 
 [The Pigeon](https://thepigeon.org/) is one of the most perplexing sites on the useless web, I have done a lot of digging and haven't been able to come up with any information. I was under the impression to have a `.org` domain you needed to be an organization.
@@ -21,4 +22,3 @@ Who is the pigeon, and what do they want?
 !SPLIT!
 
 If ANYONE has any information on this site, I have a lot of questions. Please send me a hot tip.
-
