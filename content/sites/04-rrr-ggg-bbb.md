@@ -7,6 +7,7 @@ date: "2020-04-21T00:00:00Z"
 ---
 
 I found [rrrgggbbb.com](http://www.rrrgggbbb.com/) when I was looking for the original set of useless websites in 2012, it's simplicity and quirkiness immediately made me smile, as well as the thought that someone could love the color space enough to build a tribute to it. Back then, it was built in flash, but as with much of the internet, it's received a flashy HTML5 update down the line!
+&nbsp;
 
 It's creator, [Ewoudt Boonstra](http://mrboonstra.com/) now runs his own studio, showcasing an amazing depth of creativity and artistic flair.
 
