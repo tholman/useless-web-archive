@@ -1,6 +1,8 @@
 <meta charset="utf-8" />
-<link rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }}" />
-<link rel="mask-icon" href="safari-tab-icon.svg" color="#000000" />
+
+{{ range .AlternativeOutputFormats -}}
+  {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+{{ end -}}
 
  <meta
   name="description"
@@ -25,7 +27,3 @@
 <meta property="og:url" content="https://alwaysjudgeabookbyitscover.com">
 <meta name="twitter:image" content="https://alwaysjudgeabookbyitscover.com/assets/icons/share.jpg">
 <meta name="twitter:card" content="summary_large_image"> -->
-
-<!-- {{ range .AlternativeOutputFormats -}}
-  {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
-{{ end -}} -->
