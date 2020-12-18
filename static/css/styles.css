@@ -29,7 +29,6 @@ header {
   font-family: monospace;
   display: flex;
   justify-content: space-around;
-  
 }
 
 header h1 {
@@ -53,11 +52,11 @@ header a {
 }
 
 footer {
-    border-top: 10px solid #fd34a1;
-    font-family: "Work Sans";
-    padding: 60px;
-    background: #fefefe;
-    font-size: 22px;
+  border-top: 10px solid #fd34a1;
+  font-family: "Work Sans";
+  padding: 60px;
+  background: #fefefe;
+  font-size: 22px;
 }
 
 footer p {
@@ -92,6 +91,10 @@ article {
   max-width: 600px;
   margin: 1.2rem auto;
   position: relative;
+}
+
+.details-wrapper {
+  max-width: 700px;
 }
 
 .details-wrapper p {
