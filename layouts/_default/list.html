@@ -2,19 +2,15 @@
 <html>
   <head>
     {{ partial "head.html" . }}
-
     <title>The Useless Web Sites</title>
     <meta property="og:title" content="The Sites of The Useless Web">
-    <meta property="og:description" content="An Archive and Q/A about the sites listed on the useless web.">
+    <meta property="og:description" content="Are you a fan of The Useless Web, well here's how they all happened!">
     <meta name="twitter:title" content="The Sites of The Useless Web">
-    <meta name="twitter:description" content="An Archive and Q/A about the sites listed on the useless web.">
+    <meta name="twitter:description" content="Are you a fan of The Useless Web, well here's how they all happened!">
   </head>
-
   <body>
     {{ partial "header.html" . }}
-
       <div class="wrapper">
-
         {{ $pages := .Pages }}
           {{ if .IsHome }}
             {{ $pages = .Site.RegularPages }}
@@ -28,9 +24,6 @@
           {{ end }}
         {{ end }}
         {{ partial "footer.html" . }}
-
     </div>
-
-    <script src="/js/index.js"></script>
   </body>
 </html>

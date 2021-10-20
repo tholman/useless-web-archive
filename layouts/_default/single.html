@@ -2,22 +2,17 @@
 <html>
 	<head>
   	{{ partial "head.html" . }}
-
     <title> {{ .Page.Title }} | {{ $.Site.Title }}</title>
-  	<meta property="og:title" content="Always judge a book by its cover">
-    <meta property="og:description" content="{{ .Page.Title }} - A strange book with an even stranger cover.">
-    <meta name="twitter:title" content="Always judge a book by its cover">
-    <meta name="twitter:description" content="{{ .Page.Title }} - A strange book with an even stranger cover.">
+    <meta property="og:title" content="{{ $.Page.Title }} | The Useless Web">
+    <meta property="og:description" content="Are you a fan of The Useless Web, well here's how it happened!">
+    <meta name="twitter:title" content="{{ $.Page.Title }} | The Useless Web">
+    <meta name="twitter:description" content="Are you a fan of The Useless Web, well here's how it happened!">
   </head>
   <body >
-
     {{ partial "header.html" . }}
     <div class="wrapper">
       {{ partial "article.html" (dict "context" . "index" 1) }}
       {{ partial "footer.html" . }}
     </div>
-
-    <script src="/js/index.js"></script>
-
   </body>
 </html>
