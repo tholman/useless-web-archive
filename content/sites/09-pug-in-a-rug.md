@@ -22,8 +22,7 @@ When you're staring into this beautiful pug in a rug the world fades away and no
 
 It is not! The original photo was found on Unsplash and is by [Matthew Henry](https://unsplash.com/@matthewhenry), he also has a large array of [pugs within rugs](https://unsplash.com/photos/n5vuEc86Zg8) that are all insanely cute and that are generously available under the Unsplash license! It was [this](https://unsplash.com/photos/U5rMrSI7Pn4) particular pug in a rug that lay the inspiration for this useless website!  
 
-&nbsp;
-
+&nbsp;  
 **How many levels 'of pug' are there in pug in a rug?**
 
 As of writing, there are 19 different "levels of pug", starting as a jr assistant, and quickly rising through the ranks you can eventually achieve hermit, lord, or even king of pug! That said, I'm not stuck to the 19, and have considered adding more layers of complication to your rise. But yes, for now: 19 levels.  
