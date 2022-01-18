@@ -1,0 +1,8 @@
+<div class="pagination">
+  {{ if .Paginator.HasPrev }}
+    <a href="{{ .Paginator.Prev.URL }}"> ... Past Sites & Stories </a>
+  {{ end }}
+  {{ if .Paginator.HasNext }}
+    <a href="{{ .Paginator.Next.URL }}">  More Sites & Stories ... </a>
+  {{ end }}
+</div>

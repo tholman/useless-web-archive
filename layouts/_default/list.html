@@ -22,6 +22,7 @@
             {{ partial "article.html" (dict "context" . "index" $index) }}
 
           {{ end }}
+          {{ partial "pagination.html" . }}
         {{ end }}
         {{ partial "footer.html" . }}
     </div>

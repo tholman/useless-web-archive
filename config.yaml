@@ -1,7 +1,7 @@
 baseURL: "https://theuselessweb.com/sites"
 languageCode: en-us
 title: "The Useless Web"
-paginate: 100
+paginate: 4
 paginatePath: ''
 disableKinds: ["taxonomy", "taxonomyTerm"]
 permalinks:

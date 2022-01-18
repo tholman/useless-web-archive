@@ -114,6 +114,10 @@ article {
   margin-bottom: 1.15rem;
 }
 
+.content img {
+  width: 100%;
+}
+
 .images {
   width: 80%;
   margin: auto;
@@ -186,6 +190,27 @@ article em {
   color: #888;
 }
 
+.pagination {
+  padding: 40px;
+  border-top: 10px solid #fd34a1;
+  background: #fd34a1;
+  text-align: center;
+}
+
+.pagination:empty {
+  display: none;
+}
+
+.pagination a {
+  text-transform: uppercase;
+  padding: 20px 20px;
+  margin: 0 20px;
+  background: hotpink;
+  color: #f9f9f9;
+  text-decoration: none;
+  font-family: "Work Sans";
+}
+
 @media only screen and (max-width: 800px) {
   header {
     flex-direction: column;
@@ -217,5 +242,10 @@ article em {
   .content {
     padding-left: 20px;
     padding-right: 20px;
+  }
+
+  .pagination a {
+    display: block;
+    margin: 20px;
   }
 }
