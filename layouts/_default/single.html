@@ -3,10 +3,11 @@
 	<head>
   	{{ partial "head.html" . }}
     <title> {{ .Page.Title }} | {{ $.Site.Title }}</title>
-    <meta property="og:title" content="{{ $.Page.Title }} | The Useless Web">
-    <meta property="og:description" content="Are you a fan of The Useless Web, well here's how it happened!">
-    <meta name="twitter:title" content="{{ $.Page.Title }} | The Useless Web">
-    <meta name="twitter:description" content="Are you a fan of The Useless Web, well here's how it happened!">
+    <meta property="og:title" content="{{ $.Page.Title }} on The Useless Web">
+    <meta property="og:description" content="The full story of how {{ .Page.Title }} was crated on The Useless Web.">
+    <meta name="twitter:title" content="{{ $.Page.Title }} on The Useless Web">
+    <meta name="twitter:description" content="The full story of how {{ .Page.Title }} was crated on The Useless Web.">
+    <meta name="description" content="The full story of how {{ .Page.Title }} was crated on The Useless Web." />
   </head>
   <body >
     {{ partial "header.html" . }}
